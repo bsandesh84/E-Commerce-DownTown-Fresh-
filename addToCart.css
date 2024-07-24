@@ -1,0 +1,672 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Delius', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+
+}
+
+   
+.header {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFF5F4;
+    padding: 20 20;
+    /*padding: 2% 2%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 0 ;
+  }
+
+.header img {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+    margin: 1% 2%;
+}
+
+.header .logo span {
+    color: var(--pink);
+}
+
+.header .navbar a {
+    font-size: 20px;
+    padding: 0 10px;
+    color: #666;
+    
+    
+}
+
+.header .navbar{
+
+    margin-left: 20%;
+}
+
+.header .navbar a:hover {
+    color: var(--pink);
+}
+
+.header .icons{
+  margin-right: 7%;
+  
+
+}
+
+.header .icons a {
+    font-size: 20px;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+.header .icons a:hover {
+    color: var(--pink);
+}
+
+#navigation2 ul {
+display: flex;
+  padding: 1vh 1vw;
+  border: 0.1vw solid #f7b7b7;
+  border-radius: 0.5vw;
+  list-style-type: none;
+  flex-direction: column;
+  
+}
+
+.page {
+            background-color: #FFF5F4;
+            margin-top: 50px;
+
+            /*width: calc(100% - 3.3%);*/
+        }
+
+        .box {
+            /*width: 100%;*/
+            height: 60px;
+            background-color: #fadadd;
+            padding: 20px;
+            display: flex;
+
+        }
+
+        .box p {
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+
+
+        }
+
+        .box1 {
+             width: 600px; 
+            border-bottom: 1px solid black;
+            flex: 1;
+
+        }
+
+        .box2 {
+             width: 600px; 
+            /*border-bottom: 1px solid #4a4c58;*/
+            flex: 1;
+        }
+
+.cart-row {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 2%;
+}
+
+.cart-title {
+    display: flex;
+    margin-left: 8%;
+    margin-right: 8%;
+    /*margin-top: 2%;*/
+}
+
+hr{
+  border-top: 1px solid black;
+  width: 1100px;
+}
+
+.cart-image{
+  font-family: 'Delius', sans-serif;
+  flex: 1;
+}
+
+.cart-category {
+  font-family: 'Delius', sans-serif;
+   flex: 1;
+}
+.cart-name{
+  font-family: 'Delius', sans-serif;
+    flex: 2;
+}
+.cart-price-title {
+  font-family: 'Delius', sans-serif;
+    flex: 1;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-price{
+  margin-top: 20px;
+  font-family: 'Delius', sans-serif;
+    flex: 1;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-item{
+  margin-top: 10px;
+  font-family: 'Delius', sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+  font-family: 'Delius', sans-serif;
+    flex: 1;
+}
+
+.cart-remove{
+  font-family: 'Delius', sans-serif;
+    flex: 1;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-row img {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cart-remove button{
+  height: 34px;
+    width: 75px;
+    color: black;
+    background-color: #cbaab2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-family: 'Delius', sans-serif;
+    margin-top: 20px;
+}
+
+.cart-remove:hover button{
+    background-color: #d4a1ad;
+
+}
+
+.cart-quantity input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #cbaab2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    /*margin-right: 25px;*/
+    margin: 20px 10px;
+}
+
+.cart-total {
+    
+    margin-top: 3%;
+    display: flex;
+    float: right;
+}
+
+.cart-submit input[type=submit]{
+  font-family: 'Delius', sans-serif;
+    font-size: 110%;
+    background-color: #a299d3;
+}
+
+.cart-next button{
+    margin-top: 10px;
+    background-color:white;
+    
+    transition:0.2s;
+    /*border:3px solid #000;*/
+     border:1px solid rgba(0,0,0,0.48);
+     border-radius: 2px;
+    /*margin:30px 0;*/
+    width: 80px;
+    padding:5px 0px;
+    float: right;
+    margin-left: 12px;
+    /*margin-left: -3px;*/
+
+}
+
+.cart-next button[type=reset]{
+  color:black;
+}
+
+.cart-next button[type=submit]:hover{
+  background-color:#82c59c;
+  color:black;
+}
+
+.cart-next{
+  margin-right: 80px;
+}
+
+
+
+.cart-next button:hover{
+    background-color:#484b5a;
+    color:white;
+    transition:0.2s;
+}
+
+.admin-back{
+  width: 100px;
+  margin-top: 10px;
+    background-color:white;
+    
+    transition:0.2s;
+    /*/*border:3px solid #000;*/
+     /*border:1px solid rgba(0,0,0,0.48);
+     border-radius: 2px;*/
+    padding:10px 10px;
+    float: right;
+    margin-right: 80px;
+}
+
+
+.admin-back button:hover{
+    background-color: #a299d3;
+    color:black;
+    transition:0.2s;
+}
+
+
+
+
+/*.panel {
+
+  border: 0.1vw solid #B8B8B8;
+  border-radius: 0.5vw;
+  font-family: 'Delius', sans-serif;
+  padding-top: 6%;
+}
+
+
+.pan{
+
+  margin-left:10px;
+  margin-bottom:10px;
+  margin-right: 10px;
+  
+}
+
+.panel3 {
+
+  border: 0.1vw solid #B8B8B8;
+  width: 58%;
+  border-radius: 0.5vw;
+  font-family: 'Delius', sans-serif;
+  margin-top: 3.5%;
+  height: 330px;
+}
+
+
+.panel4{
+
+  margin-left:10px;
+  margin-bottom:10px;
+ 
+  
+}
+
+#addbutton,#removebutton,#submitbutton {
+    font-family: 'Delius', sans-serif;
+    font-size: 110%;
+    background-color: #a299d3;
+    padding:1% 1%;
+    margin: 0 1%;
+
+}
+
+#addbutton:hover {
+    background-color: #7366bd;
+    color: white;
+}
+
+#removebutton:hover {
+    background-color: #7366bd;
+    color: white;
+}
+
+#submitbutton:hover {
+    background-color: #7366bd;
+    color: white;
+}
+
+#item{
+  font-size: 120%;
+  width: 40%;
+ padding: 6px 10px; 
+ background-color: #7366bd;
+ color: white;
+ margin-right: 0.5%;
+}*/
+
+.cart-total-price {
+    margin-top: 5%;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+.btn-purchase {
+    /*display: block;*/
+    /*margin: 40px auto 80px auto;*/
+    font-size: 1em;
+    color: black;
+    float: left;
+   margin-top: 5%;
+    background-color: #cbaab2;
+    margin-bottom: 3%;
+}
+.btn-purchase:hover {
+    background-color: #d4a1ad;
+}
+
+@media screen and (max-width: 600px){
+  .cart-items{
+    
+    margin-left: -15%;
+
+  }
+
+  .cart-total .panel{
+    display: 100%;
+    margin-right: -6%;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+  }
+
+  #youadd .panel3{
+    margin-top: 100%;
+    width:100%;
+    height: 100%;
+    margin-left: -3%;
+  }
+
+  #addbutton,#removebutton,#submitbutton{
+
+    font-family: 'Delius', sans-serif;
+    font-size: 90%;
+    background-color: #a299d3;
+    padding:1% 1%;
+    margin: 0 1%;
+
+  }
+
+  #item{
+    font-size: 120%;
+    width: 40%;
+   padding: 2px 10px; 
+   background-color: #7366bd;
+   color: white;
+   margin-right: 0.5%;
+  }
+
+  #submitbutton{
+    margin-top: 2%;
+  }
+
+}
+
+@media screen and (max-width: 1200px){
+  .cart-items{
+    
+    margin-left: -15%;
+
+  }
+
+  .cart-total .panel{
+    display: 100%;
+    margin-right: -6%;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+  }
+
+  #youadd .panel3{
+    width:358px;
+    margin-left: -3%;
+    height: 100%;
+  }
+
+  #addbutton,#removebutton,#submitbutton{
+
+    font-family: 'Delius', sans-serif;
+    font-size: 90%;
+    background-color: #a299d3;
+    padding:1% 1%;
+    margin: 0 1%;
+
+  }
+
+  #item{
+    font-size: 120%;
+    width: 40%;
+   padding: 2px 10px; 
+   background-color: #7366bd;
+   color: white;
+   margin-right: 0.5%;
+  }
+
+  #submitbutton{
+    margin-top: 2%;
+  }
+
+
+}
+/* for footer */
+
+.footer #footercontainer{
+  font-family: 'Delius', sans-serif;
+  margin-left: 6%;
+  margin-right: 6%;
+  max-width: 100%;
+  max-height: 100%;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.footer #footercontainer p{
+  font-size: 120%;
+  /*font-size: 4vh;*/
+}
+
+.footer #footercontainer #navigation2 a{
+
+  font-family: 'Delius', sans-serif;
+  color: black;
+}
+
+.footer #footercontainer #navigation2 a:hover{
+
+  color:#9696ea;
+}
+
+.footer #footercontainer{
+  display:flex;
+  grid-gap: 4%;
+}
+
+.footer #footercontainer .flex1{
+  flex: 1;
+  
+}
+.footer #footercontainer .flex2{
+  text-align: justify;
+  flex: 2;
+}
+
+.footer #footercontainer .flex3{
+  flex: 1;
+}
+
+.footer #footercontainer .flex4{
+  text-align: justify;
+  flex: 1;
+}
+
+.flex4 img{
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  
+}
+/*responsive*/
+@media screen and (max-width: 1200px){
+  .footer{
+    margin-top: 10%;
+  }
+
+}
+
+@media screen and (max-width: 840px) {
+
+  #head{
+  
+  display: grid;
+}
+
+#head h2{
+  margin-left: 10%;
+}
+
+#search{
+  margin-top: -8%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#search input[type=text]{
+  font-family: 'Delius', sans-serif;
+  font-size: 17px;
+  background: #ddd;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 8%;
+}
+
+  .flex1,.flex2,.flex3,.flex4 {
+
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .flex4 img{
+  margin-left: 25%;
+  }
+
+  .symbols{
+
+    margin-left: -6%;
+
+  }
+
+  .footer{
+    margin-top: -2%;
+  }
+
+}
+
+.footer .symbols{
+
+  margin-top: 2%;
+  padding-left: 45.5%;
+}
+
+.footer .copyright{
+  font-family: 'Delius', sans-serif;
+  font-size: 80%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.symbols img title{
+  background-color: black;
+  color: white;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the ("Order"). 
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 800px) {
+
+  #logo { 
+    width: 15%; 
+   
+  }
+  .topnav a:not(:nth-child(3)) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-left: 5px;
+  }
+
+  
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the 
+topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+
+  .topnav.responsive {
+    position: relative;
+    margin-right: 8%;
+    
+  }
+
+  .fa-bars{
+    font-size: 1em;
+
+  }
+
+  .topnav.responsive .icon {
+    position: relative;
+
+  }
+
+  .responsive{
+    display: inline-flex;
+  }
+
+  .topnav.responsive a {
+    display: inline-flex;
+  transition: all 1s ease-in-out;
+
+  }
+}

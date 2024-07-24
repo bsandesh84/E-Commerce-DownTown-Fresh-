@@ -1,0 +1,929 @@
+/*for logo and navigation bar*/
+
+header {
+
+   font-family: 'Delius', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 2%;
+   margin-left: 2%;
+   padding: 0.4% 2%; 
+}
+
+   
+.header {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #FFF5F4;
+    padding: 20 20;
+    /*padding: 2% 2%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 0 ;
+}
+
+.header img {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+    margin: 1% 2%;
+}
+
+.header .logo span {
+    color: var(--pink);
+}
+
+.header .navbar a {
+    font-size: 20px;
+    /*padding: 0 1.5rem;*/
+    padding: 0 10px;
+    color: #666;
+     font-family: 'Delius', sans-serif;
+    
+    
+}
+
+.header .navbar{
+    /* margin-right:-45%; */
+    margin-left: 39%;
+}
+
+.header .navbar a:hover {
+    color: var(--pink);
+}
+
+.header .icons{
+  margin-right: 7%;
+  
+
+}
+
+.header .icons a {
+    font-size: 20px;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+.header .icons a:hover {
+    color: var(--pink);
+}
+
+
+
+     
+    
+ 
+
+
+
+    
+
+#navigation2 ul {
+display: flex;
+  padding: 1vh 1vw;
+  border: 0.1vw solid #f7b7b7;
+  border-radius: 0.5vw;
+  list-style-type: none;
+  flex-direction: column;
+  
+}
+
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+/* for search bar and text*/
+#head{
+  font-family: 'Delius', sans-serif;
+  display: flex;
+  grid-gap: 28%;
+  margin-top: 10%; 
+  margin-bottom: 1%;
+}
+
+#head h2{
+  margin-left: 10%;
+}
+#search{
+  float: right;
+  
+}
+
+#search input[type=text]{
+  font-family: 'Delius', sans-serif;
+  padding: 6px;
+  font-size: 17px;
+  padding: 10px 10px;
+  background: #ddd;
+  width: 300px;
+  cursor: pointer;
+}
+
+#logo { 
+
+  width: 8%;
+  margin-left: -2%;
+
+}
+
+/*for navigation bar*/
+
+#navigation {
+
+  float: right;
+  list-style-type: none;
+
+}
+
+#navigation {
+  display: inline-flex;
+
+}
+
+#navigation a{
+  text-decoration: none;
+  color: black;
+  padding: 1vh 1vw;
+  border: 1px solid transparent;
+  transition: 1s ease;
+  margin-right: 2%;
+  transform:rotateY(360deg);/*animation*/
+  
+}
+/*change color while hovering*/
+#navigation a:hover{
+  background-color: #b87d7c;
+  color:white;
+}
+
+#navigation a.active{
+
+  background-color: #b28382;
+  color:black;
+
+}
+* {
+    box-sizing: border-box;
+     font-family: 'Delius', sans-serif;
+
+}
+
+.content-section {
+    /*margin: 1em 1em;*/
+    display: inline-flex;
+    border: 1px solid black;
+}
+
+.container {
+    width: 100%;
+    /*padding: 0 1.5em;*/
+   
+}
+.section-header {
+    font-family: 'Delius', sans-serif;
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2em;
+    position: -webkit-sticky;
+  position: sticky;
+  top: -1px;
+  margin-left: 7%;
+  background-color: #fff3f1;
+  /*margin-right: 7%;*/
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-primary {
+    color: black;
+    background-color: #ffe4e1;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+     font-family: 'Delius', sans-serif;
+}
+
+.shop-item-title {
+  font-family: 'Delius', sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 15px;
+}
+.shop-description{
+
+	text-align: justify;
+	font-size: 85%;
+
+}
+.shop-item-title {
+  font-family: 'Delius', sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 120%;
+    margin-bottom: 15px;
+}
+
+
+.shop-item-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+ 	flex-grow: 1;
+    
+     font-family: 'Delius', sans-serif;
+     text-decoration: line-through;
+}
+
+.fcc-btn {
+  font-size: 1em;
+    color: black;
+    float: left;
+   margin-top: 5%;
+    background-color: #cbaab2;
+    margin-bottom: 3%;
+    padding:5px 5px;
+    border-radius: 10px;
+    margin-left: 5px;
+     margin-right: 5px;
+     width: 90px;
+     text-align: center;
+
+}
+
+.fcc-btn:hover{
+	 background-color: #8bb9dd;
+}
+
+
+.shop-discount{
+	 font-family: 'Delius', sans-serif;
+}
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 8%;
+
+    
+}
+
+.shop-description{
+
+	text-align: center;
+	width: 300px;
+
+
+}
+
+.shop-item{
+    margin-bottom: 3%;
+    transition: transform .2s;
+    /*border: 2px solid black;
+    border-radius: 20px;*/
+}
+
+.img__description {
+  position: absolute;
+  top: 41%;
+  bottom: 41%;
+  left: 35%;
+  right: 35%;
+  color: black;
+  visibility: none;
+  opacity: 0;
+  border: 1.2px solid red;
+
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+/* for search bar and text*/
+#head{
+  font-family: 'Delius', sans-serif;
+  display: flex;
+  grid-gap: 28%;
+}
+
+#head h2{
+  margin-left: 10%;
+}
+
+#search2{
+
+  margin-left: 25%;
+}
+
+
+
+.btn-danger {
+    color: black;
+    background-color: #cbaab2;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+    font-family: 'Delius', sans-serif;
+}
+
+.btn-danger:hover {
+    background-color: #d4a1ad;
+}
+
+
+#addbutton,#removebutton,#submitbutton {
+    font-family: 'Delius', sans-serif;
+    font-size: 110%;
+    background-color: #a299d3;
+    padding:1% 1%;
+    margin: 0 1%;
+
+}
+
+#addbutton:hover {
+    background-color: #7366bd;
+    color: white;
+}
+
+#removebutton:hover {
+    background-color: #7366bd;
+    color: white;
+}
+
+#submitbutton:hover {
+    background-color: #7366bd;
+    color: white;
+}
+
+#item{
+  font-size: 120%;
+  width: 40%;
+ padding: 6px 10px; 
+ background-color: #7366bd;
+ color: white;
+ margin-right: 0.5%;
+}
+
+.cart-total-price {
+    margin-top: 5%;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-left: 4%;
+}
+
+.btn-purchase {
+    /*display: block;*/
+    /*margin: 40px auto 80px auto;*/
+    font-size: 1em;
+    color: black;
+    float: left;
+   margin-top: 5%;
+    background-color: #cbaab2;
+    margin-bottom: 3%;
+}
+.btn-purchase:hover {
+    background-color: #d4a1ad;
+}
+
+@media screen and (max-width: 600px){
+  .cart-items{
+    
+    margin-left: -15%;
+
+  }
+
+  .cart-total .panel{
+    display: 100%;
+    margin-right: -6%;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+  }
+
+  #youadd .panel3{
+    margin-top: 100%;
+    width:100%;
+    height: 100%;
+    margin-left: -3%;
+  }
+
+  #addbutton,#removebutton,#submitbutton{
+
+    font-family: 'Delius', sans-serif;
+    font-size: 90%;
+    background-color: #a299d3;
+    padding:1% 1%;
+    margin: 0 1%;
+
+  }
+
+  #item{
+    font-size: 120%;
+    width: 40%;
+   padding: 2px 10px; 
+   background-color: #7366bd;
+   color: white;
+   margin-right: 0.5%;
+  }
+
+  #submitbutton{
+    margin-top: 2%;
+  }
+
+}
+
+
+
+@media screen and (max-width: 1200px){
+  .cart-items{
+    
+    margin-left: -15%;
+
+  }
+
+  .cart-total .panel{
+    display: 100%;
+    margin-right: -6%;
+    margin-left: 0;
+    padding-right: 0;
+    padding-left: 0;
+    float: left;
+  }
+
+  #youadd .panel3{
+    width:358px;
+    margin-left: -3%;
+    height: 100%;
+  }
+
+  #addbutton,#removebutton,#submitbutton{
+
+    font-family: 'Delius', sans-serif;
+    font-size: 90%;
+    background-color: #a299d3;
+    padding:1% 1%;
+    margin: 0 1%;
+
+  }
+
+  #item{
+    font-size: 120%;
+    width: 40%;
+   padding: 2px 10px; 
+   background-color: #7366bd;
+   color: white;
+   margin-right: 0.5%;
+  }
+
+  #submitbutton{
+    margin-top: 2%;
+  }
+
+
+}
+/* for footer */
+
+.footer #footercontainer{
+  font-family: 'Delius', sans-serif;
+  margin-left: 6%;
+  margin-right: 6%;
+  max-width: 100%;
+  max-height: 100%;
+  flex-wrap: wrap;
+  margin-top: 2%;
+}
+
+.footer #footercontainer p{
+  font-size: 120%;
+  /*font-size: 4vh;*/
+}
+
+.footer #footercontainer #navigation2 a{
+
+  font-family: 'Delius', sans-serif;
+  color: black;
+}
+
+.footer #footercontainer #navigation2 a:hover{
+
+  color:#9696ea;
+}
+
+.footer #footercontainer{
+  display:flex;
+  grid-gap: 4%;
+}
+
+.footer #footercontainer .flex1{
+  flex: 1;
+  
+}
+.footer #footercontainer .flex2{
+  text-align: justify;
+  flex: 2;
+}
+
+.footer #footercontainer .flex3{
+  flex: 1;
+}
+
+.footer #footercontainer .flex4{
+  text-align: justify;
+  flex: 1;
+}
+
+.flex4 img{
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  
+}
+/*responsive*/
+@media screen and (max-width: 1200px){
+  .footer{
+    margin-top: 10%;
+  }
+
+}
+
+@media screen and (max-width: 840px) {
+
+  #head{
+  
+  display: grid;
+}
+
+#head h2{
+  margin-left: 10%;
+}
+
+#search{
+  margin-top: -8%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+#search input[type=text]{
+  font-family: 'Delius', sans-serif;
+  font-size: 17px;
+  background: #ddd;
+  width: 100%;
+  cursor: pointer;
+  margin-bottom: 8%;
+}
+
+  .flex1,.flex2,.flex3,.flex4 {
+
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .flex4 img{
+  margin-left: 25%;
+  }
+
+  .symbols{
+
+    margin-left: -6%;
+
+  }
+
+  .footer{
+    margin-top: -2%;
+  }
+
+}
+
+.footer .symbols{
+
+  margin-top: 2%;
+  padding-left: 45.5%;
+}
+
+.footer .copyright{
+  font-family: 'Delius', sans-serif;
+  font-size: 80%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.symbols img title{
+  background-color: black;
+  color: white;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the ("Order"). 
+Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 800px) {
+
+  #logo { 
+    width: 15%; 
+   
+  }
+  .topnav a:not(:nth-child(3)) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-left: 5px;
+  }
+
+  
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+  .topnav.responsive {
+    position: relative;
+    margin-right: 8%;
+    
+  }
+
+  .fa-bars{
+    font-size: 1em;
+
+  }
+
+  .topnav.responsive .icon {
+    position: relative;
+
+  }
+
+  .responsive{
+    display: inline-flex;
+  }
+
+  .topnav.responsive a {
+    display: inline-flex;
+  transition: all 1s ease-in-out;
+
+  }
+}
+
+
+#terms{
+  margin-left: -46%;
+  margin-right: -46%;
+}
+
+.newsletter{
+  margin-top: -4.5%;
+}
+.newsletter input{
+    width:70%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:8px 10px;
+    
+}
+
+.newsletter input[type=submit]{
+    background-color:#c4342d;
+    color:#fff;
+    transition:0.2s;
+    border:1px solid #000;
+    margin:30px 0;
+    width: 25%;
+    margin-left: 2%;
+
+}
+
+.newsletter input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 250px;               
+  background-color:black;
+  height: 2px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width:991px){
+    .containers{
+        display:block;
+        width:100%;
+        margin: 0 0;
+        padding: 0 10%;
+        background-color: #FFF5F4;
+
+    }
+
+    .container1{
+        display:none;
+    }
+
+    .container2{
+        background-image:url('images/cutebg6.jpg');
+        background-size:cover;
+    }
+
+    .contact input, .contact textarea{
+        background-color:#fff;
+    }
+
+    .contact input[type=submit]{
+      width: 150px;
+    
+    }
+
+    .contact input[type=reset]{
+
+      width: 175px;
+    
+    }
+}
+
+#navigation2 ul {
+display: flex;
+  padding: 1vh 1vw;
+  border: 0.1vw solid #f7b7b7;
+  border-radius: 0.5vw;
+  list-style-type: none;
+  flex-direction: column;
+  
+}
+
+footer{
+  
+  font-family: 'Delius', sans-serif;
+  margin-top: 4%;
+
+}
+
+footer #footercontainer{
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  flex-wrap: wrap;
+}
+
+footer #footercontainer p{
+  font-size: 120%;
+}
+
+footer #footercontainer #navigation2 a{
+
+  font-family: 'Delius', sans-serif;
+  color: black;
+}
+
+footer #footercontainer #navigation2 a:hover{
+
+  color:#b57281;
+}
+
+footer #footercontainer{
+  display:flex;
+  grid-gap: 4%;
+}
+
+footer #footercontainer .flex1{
+  flex: 1;
+  
+}
+footer #footercontainer .flex2{
+  text-align: justify;
+  flex: 2;
+}
+
+footer #footercontainer .flex3{
+  flex: 1;
+}
+
+footer #footercontainer .flex4{
+  text-align: justify;
+  flex: 1;
+}
+
+.flex4 img{
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  
+}
+
+
+@media screen and (max-width: 840px) {
+  .flex1,.flex2,.flex3,.flex4 {
+
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .flex4 img{
+  margin-left: 25%;
+  }
+
+  .symbols{
+
+    margin-left: -6%;
+
+  }
+
+}
+
+footer .symbols{
+
+  margin-top: 2%;
+  padding-left: 45.5%;
+}
+
+footer .copyright{
+
+  font-size: 80%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.symbols img title{
+  background-color: black;
+  color: white;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the ("contact"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 800px) {
+
+  #logo { 
+    width: 15%; 
+   
+  }
+  .topnav a:not(:nth-child(2)) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-left: 5px;
+  }
+
+  
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+
+  .topnav.responsive {
+    position: relative;
+    margin-right: 8%;
+    
+  }
+
+  .fa-bars{
+    font-size: 1em;
+
+  }
+
+  .topnav.responsive .icon {
+    position: relative;
+
+  }
+
+  .responsive{
+    display: inline-flex;
+  }
+
+  .topnav.responsive a {
+    display: inline-flex;
+  transition: all 1s ease-in-out;
+
+  }
+}

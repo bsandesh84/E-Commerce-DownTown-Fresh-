@@ -1,0 +1,650 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+header {
+
+   font-family: 'Delius', sans-serif;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-right: 2%;
+   margin-left: 2%;
+   padding: 0.4% 2%; 
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.topnav .icon {
+  display: none;
+}
+
+
+#logo { 
+
+  width: 8%;
+  margin-left: -2%;
+
+}
+
+#navigation {
+
+  float: right;
+  list-style-type: none;
+
+}
+
+#navigation {
+  display: inline-flex;
+
+}
+
+#navigation a{
+  text-decoration: none;
+  color: black;
+  padding: 1vh 1vw;
+  border: 1px solid transparent;
+  transition: 1s ease;
+  margin-right: 2%;
+  transform:rotateY(360deg);
+  
+}
+
+#navigation a:hover{
+  background-color: #b87d7c;
+  color:white;
+}
+
+#navigation a.active{
+
+  background-color: #b28382;
+  color:black;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   font-family: 'Delius', sans-serif;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2s linear;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: 0.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover {
+    background: var(--pink);
+}
+
+.header {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+    overflow-x: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFF5F4;
+    padding: 20 20;
+    /*padding: 2% 2%;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    margin: 0 0 ;
+    font-family: 'Delius', sans-serif;
+}
+
+.header img {
+    font-size: 3rem;
+    color: #333;
+    font-weight: bolder;
+    margin: 1% 2%;
+}
+
+.header .logo span {
+    color: var(--pink);
+}
+
+.header .navbar a {
+    font-size: 20px;
+    /*padding: 0 1.5rem;*/
+    padding: 0 10px;
+    color: #666;
+}
+
+.header .navbar{
+    margin-right:-45%;
+}
+
+.header .navbar a:hover {
+    color: var(--pink);
+}
+
+.header .icons{
+  margin-right: 2%;
+
+}
+
+.header .icons a {
+    font-size: 20px;
+    color: #333;
+    margin-left: 1.5rem;
+}
+
+.header .icons a:hover {
+    color: var(--pink);
+}
+
+.header #toggler {
+    display: none;
+}
+
+.header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    border: 0.1rem solid rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+
+.item {
+  font-family: 'Delius', sans-serif;
+    width: 45%;
+}
+
+/*
+#search fieldset{
+  margin-right: 13%;
+  margin-left: 10%;
+}
+*/
+/* for search bar and text*/
+#head{
+  font-family: 'Delius', sans-serif;
+  margin-top: 10%;
+}
+
+
+#search input[type=text]{
+  font-family: 'Delius', sans-serif;
+  padding: 6px;
+  font-size: 17px;
+  padding: 10px 10px;
+  /*background: #ddd;*/
+  width: 285px;
+  cursor: pointer;
+  /*margin-left: 2.5%;*/
+}
+
+#txtCategory, #txtTrader{
+   font-family: 'Delius', sans-serif;
+  padding: 6px;
+  font-size: 17px;
+  padding: 10px 10px;
+  /*background: #ddd;*/
+  width: 10%;
+  cursor: pointer;
+  margin-left: 0.5%;
+}
+#searching{
+  margin-left: 20%;
+}
+#search input[type=submit]{
+  font-family: 'Delius', sans-serif;
+  /*padding: 6px;*/
+  font-size: 17px;
+  padding: 10px 10px;
+  background: #ddd;
+  width:80px;
+  cursor: pointer;
+  margin-left: 0.8%;
+   /*margin-left: 4%;*/
+}
+
+/*#Ascending{
+  position: right;
+}*/
+
+#search button[type=submit]{
+  font-family: 'Delius', sans-serif;
+  padding: 6px;
+  font-size: 17px;
+  padding: 10px 10px;
+  background: #ddd;
+  width: 100px;
+  cursor: pointer;
+  /*margin-left: 2.5%;*/
+}
+
+
+#search input[type=submit]:hover{
+    background-color:#fff;
+    color:blue;
+    transition:0.2s;
+}
+
+#search input[type=button]:hover{
+    background-color:#fff;
+    color:red;
+    transition:0.2s;
+}
+
+#sortbyname label{
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#logo { 
+
+  width: 8%;
+  margin-left: -2%;
+
+}
+
+
+
+
+body{
+   margin:8px;
+}
+
+.nav2{
+  margin-left: 2%;
+  margin-top: 10%;
+}
+
+.division{
+  margin-top: 2%;
+}
+.containers{
+    margin:0 0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+.containers{
+    background: #FFF;
+    display:flex;
+    margin:0 85px;
+}
+
+.container1{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+    
+}
+
+.container2{
+    display:flex;
+    flex:1;
+    box-shadow:0px 0px 10px -2px rgba(0,0,0,0.75);
+
+}
+
+.container1{
+    background:url('Images/traderRegister.jpg');
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+    color:#fff;
+    
+    
+}
+
+.container1 #p1{
+  font-family: 'Delius', sans-serif;
+    padding-left:35%;
+    font-size:20px;
+    font-weight: bold;
+    color: #0d7373;
+    padding-top: 15%;
+    /*padding-top: 30%;*/
+}
+
+.container1 #p2{
+    font-family: 'Delius', sans-serif;
+    padding-left:35%;
+    font-size:20px;
+    font-weight: bold;
+    color: #0d7373;
+    margin-top: -75%;
+}
+
+.container1 p span{
+  font-family: 'Delius', sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    color:#0d7373;
+    
+}
+
+.container2{
+    flex-direction:column;
+    justify-content:space-around;
+    align-items:center;
+    background-image: url('images/cutebg6.jpg');
+}
+
+.contact{
+    width:90%;
+    margin:0 auto;
+}
+
+.contact h2{
+    font-family: 'Delius', sans-serif;
+    color: #292929;
+    text-align:left;
+    margin-top:50px;
+    margin-bottom: 20px;
+    border-bottom: 0.1vw solid #9E9E9E;
+}
+
+.contact label{
+  font-family: 'Delius', sans-serif;
+}
+
+.contact input, .contact textarea, .contact select{
+    width:95%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:5px 10px;
+    margin-bottom:20px;
+    margin-top: 5px;
+}
+
+.contact input[type=submit]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:3px solid #000;
+    margin:30px 0;
+    width: 49%;
+
+}
+
+
+
+.contact input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+
+.contact input[type=reset]{
+    background-color:#000;
+    color:#fff;
+    transition:0.2s;
+    border:3px solid #000;
+    margin:30px 0;
+    width: 49%;
+}
+
+.contact input[type=reset]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+
+
+#terms{
+  margin-left: -46%;
+  margin-right: -46%;
+}
+
+.newsletter{
+  margin-top: -4.5%;
+}
+.newsletter input{
+    width:70%;
+    background-color:#eee;
+    border:1px solid rgba(0,0,0,0.48);
+    padding:8px 10px;
+    
+}
+
+.newsletter input[type=submit]{
+    background-color:#c4342d;
+    color:#fff;
+    transition:0.2s;
+    border:1px solid #000;
+    margin:30px 0;
+    width: 25%;
+    margin-left: 2%;
+
+}
+
+.newsletter input[type=submit]:hover{
+    background-color:#fff;
+    color:#000;
+    transition:0.2s;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 250px;               
+  background-color:black;
+  height: 2px;
+  margin-top: 2px;
+  margin-bottom: 3px;
+}
+
+@media screen and (max-width:991px){
+    .containers{
+        display:block;
+        width:100%;
+        margin: 0 0;
+        padding: 0 10%;
+        background-color: #FFF5F4;
+
+    }
+
+    .container1{
+        display:none;
+    }
+
+    .container2{
+        background-image:url('images/cutebg6.jpg');
+        background-size:cover;
+    }
+
+    .contact input, .contact textarea{
+        background-color:#fff;
+    }
+
+    .contact input[type=submit]{
+      width: 150px;
+    
+    }
+
+    .contact input[type=reset]{
+
+      width: 175px;
+    
+    }
+}
+
+#navigation2 ul {
+display: flex;
+  padding: 1vh 1vw;
+  border: 0.1vw solid #f7b7b7;
+  border-radius: 0.5vw;
+  list-style-type: none;
+  flex-direction: column;
+  
+}
+
+footer{
+  
+  font-family: 'Delius', sans-serif;
+  margin-top: 4%;
+
+}
+
+footer #footercontainer{
+  margin-left: 5%;
+  margin-right: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  flex-wrap: wrap;
+}
+
+footer #footercontainer p{
+  font-size: 120%;
+}
+
+footer #footercontainer #navigation2 a{
+
+  font-family: 'Delius', sans-serif;
+  color: black;
+}
+
+footer #footercontainer #navigation2 a:hover{
+
+  color:#b57281;
+}
+
+footer #footercontainer{
+  display:flex;
+  grid-gap: 4%;
+}
+
+footer #footercontainer .flex1{
+  flex: 1;
+  
+}
+footer #footercontainer .flex2{
+  text-align: justify;
+  flex: 2;
+}
+
+footer #footercontainer .flex3{
+  flex: 1;
+}
+
+footer #footercontainer .flex4{
+  text-align: justify;
+  flex: 1;
+}
+
+.flex4 img{
+  width: 50%;
+  height: 20%;
+  margin-left: 25%;
+  
+}
+
+
+@media screen and (max-width: 840px) {
+  .flex1,.flex2,.flex3,.flex4 {
+
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .flex4 img{
+  margin-left: 25%;
+  }
+
+  .symbols{
+
+    margin-left: -6%;
+
+  }
+
+}
+
+footer .symbols{
+
+  margin-top: 2%;
+  padding-left: 45.5%;
+}
+
+footer .copyright{
+
+  font-size: 80%;
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.symbols img title{
+  background-color: black;
+  color: white;
+}
+
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the ("contact"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 800px) {
+
+  #logo { 
+    width: 15%; 
+   
+  }
+  .topnav a:not(:nth-child(2)) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+    margin-left: 5px;
+  }
+
+  
+}
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 800px) {
+
+  .topnav.responsive {
+    position: relative;
+    margin-right: 8%;
+    
+  }
+
+  .fa-bars{
+    font-size: 1em;
+
+  }
+
+  .topnav.responsive .icon {
+    position: relative;
+
+  }
+
+  .responsive{
+    display: inline-flex;
+  }
+
+  .topnav.responsive a {
+    display: inline-flex;
+  transition: all 1s ease-in-out;
+
+  }
+}
+

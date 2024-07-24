@@ -1,0 +1,156 @@
+<style>
+        .block {
+            /*width: 1210px;*/
+            /* height: 1200px; */
+            background-color: white;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .block1 {
+            /*width: 1210px;*/
+            height: 220px;
+            background-color: white;
+            display: flex;
+        }
+
+
+
+
+        .block2 {
+            /*width: 1210px;*/
+            height: 220px;
+            background-color: white;
+            display: flex;
+        }
+
+        .block3 {
+            /*width: 1210px;*/
+            height: 240px;
+            background-color: white;
+
+        }
+
+
+
+
+        .block4 {
+            /*width: 1210px;*/
+            height: 110px;
+            background-color: white;
+
+        }
+
+
+        .block5 {
+
+            background-color: white;
+
+        }
+
+        .block5 p {
+            margin-top: 20px;
+        }
+
+        .block6 {
+            /*width: 1210px;*/
+            height: 140px;
+            background-color: white;
+
+        }
+
+        .block6 .des {
+            display: flex;
+        }
+
+        .des1 {
+            flex: 1;
+        }
+
+        .des2 {
+            flex: 1;
+        }
+
+        .des3 {
+            flex: 1;
+        }
+
+        .block1 .image {
+            margin-left: 800px;
+            margin-top: 10px;
+
+        }
+
+        .block2 {
+            display: flex;
+        }
+
+        .bill {
+            flex: 2;
+        }
+
+        .text {
+            flex: 1;
+
+        }
+
+        .block2 .text {
+
+            display: flex;
+
+        }
+
+        .text1 {
+            flex: 1;
+        }
+
+        .text2 {
+            flex: 1;
+        }
+
+        .con {
+
+            display: flex;
+            float: right;
+            margin-right: 20px;
+            width: 300px;
+        }
+
+        .con1 {
+            flex: 1;
+
+        }
+
+        .con2 {
+            flex: 1;
+
+        }
+
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: white;
+        }
+
+        #customers tr:hover {
+            background-color: white;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: white;
+            color: white;
+        }
+    </style>
